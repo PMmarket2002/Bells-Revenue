@@ -1,0 +1,8 @@
+{
+  "name": "Remix Bell´s Revenue",
+  "description": "Digitales Marketing und qualifizierte Kundengewinnung für Dienstleister, Handwerksbetriebe und wachsende Unternehmen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

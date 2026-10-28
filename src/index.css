@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-primary: #57BBBD;
+    --brand-cta: #FF9F1C;
+    --brand-cta-hover: #122526;
+    --brand-dark: #122526;
+    --brand-teal-accent: #43A4AA;
+    --brand-teal-deep: #1F6B6F;
+    --brand-surface-tint: #EEF8F8;
+    --brand-surface-light: #F8F8F8;
+    --brand-peach: #FFBC7D;
+    --brand-orangy-yellow: #FF9F1C;
+  }
+
+  body {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #122526;
+    background-color: #F8F8F8;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Lilita One', cursive, sans-serif;
+    letter-spacing: 0.01em;
+  }
+}
+
+/* Custom utility classes mimicking the exact button & typography rules of Swoop Scoop with orangy yellow accent */
+.btn-swoop-primary {
+  font-family: 'Lilita One', cursive, sans-serif;
+  background-color: #FF9F1C;
+  color: #122526;
+  border-radius: 25px;
+  padding: 12px 34px;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(255, 159, 28, 0.35);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-swoop-primary:hover {
+  background-color: #122526;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(18, 37, 38, 0.25);
+}
+
+.btn-swoop-secondary {
+  font-family: 'Lilita One', cursive, sans-serif;
+  background-color: #57BBBD;
+  color: #122526;
+  border-radius: 25px;
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 12px rgba(87, 187, 189, 0.25);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-swoop-secondary:hover {
+  background-color: #122526;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(18, 37, 38, 0.2);
+}
+
+.btn-swoop-outline {
+  font-family: 'Lilita One', cursive, sans-serif;
+  background-color: transparent;
+  color: #122526;
+  border: 2px solid #122526;
+  border-radius: 25px;
+  padding: 10px 28px;
+  font-size: 1.15rem;
+  line-height: 1.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-swoop-outline:hover {
+  background-color: #122526;
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.eyebrow-swoop {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #43A4AA;
+}
